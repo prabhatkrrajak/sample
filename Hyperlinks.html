@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hyperlinks</title>
+</head>
+
+<body>
+	<header>
+		<h1>Hyperlinks</h1>
+	</header>
+	<main>
+		<p>Knowing about links is important.</p>
+
+		<div id="absolute">
+			<h2>Absolute Reference</h2>
+
+			<p>Absolute references always begin with the protocol name. An absolute reference is the complete address to a web page, just as you'd use in the browser's address bar. Absolute references are used to refer to a site somewhere else on the Internet.</p>
+			<ul>
+				<li><a href="https://www.ironman.com">Ironman</a></li>
+				<li><a href="https://www.marvel.com/characters/spider-man-peter-parker">Spiderman</a></li>
+			</ul>
+		</div>
+
+		<div id="relative">
+			<h2>Relative Reference</h2>
+
+			<p>Relative references work by assuming the address of the current page. When the user clicks , the browser sees no protocol, so it assumes that market. html is in the same directory on the same server as . Relative references work like directions.</p>
+			<ul>
+				<li><a href="imgs/ironman.jpg">Tony as Ironman</a></li>
+			</ul>
+		</div>
+
+		<div id="images">
+			<h2>Images as links</h2>
+			<p>To use image as a link in HTML, use the &lt;img&gt; tag as well as the &lt;a&gt; tag with the href attribute. The &lt;img&gt; tag is for using an image in a web page and the &lt;a&gt; tag is for adding a link. Under the image tag src attribute, add the URL of the image. With that, also add the height and width.<br>
+				<a href="imgs/ironman.jpg"><img src="imgs/ironman.jpg" width="100px" alt="Thumbnail of Ironman"></a>
+			</p>
+		</div>
+
+		<div id="embedded">
+			<h2>Embedded Links</h2>
+			<p>To make a hyperlink in an HTML page, use the &lt;a&gt; and &lt;/a&gt; tags, which are the tags used to define the links. The &lt;a&gt; tag indicates where the hyperlink starts and the &lt;/a&gt; tag indicates where it ends. Whatever text gets added inside these tags, will work as a hyperlink. Add the URL for the link in the &lt;a href=” ”&gt;.</p>
+			<ul>
+				<li><a href="#absolute">Absolute reference</a></li>
+				<li><a href="#relative">Relative reference</a></li>
+				<li><a href="#images">Images as Links</a></li>
+				<li><a href="#embedded">Embedded Links</a></li>
+				
+			</ul>
+		</div>
+
+	</main>
+</body>
+</html>
